@@ -35,7 +35,7 @@ jobs:
     - name: Build executable
       run: |
         pip install pyinstaller
-        pyinstaller --onefile --name="The_Most_Interesting_BMI_Calculator" The_Most_Interesting_BMI_Calculator.py
+        pyinstaller --onefile --name="The_Most_Interesting_BMI_Calculator" The_Most_Interesting_BMI_Calculator/The_Most_Interesting_BMI_Calculator.py
     
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
