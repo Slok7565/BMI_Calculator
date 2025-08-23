@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36408.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "The_Most_Interesting_BMI_Calculator", "PythonApplication3\The_Most_Interesting_BMI_Calculator.pyproj", "{1DEE61BB-3F3B-4286-A31B-6D907F73F295}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "The_Most_Interesting_BMI_Calculator", "The_Most_Interesting_BMI_Calculator\The_Most_Interesting_BMI_Calculator.pyproj", "{1DEE61BB-3F3B-4286-A31B-6D907F73F295}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
