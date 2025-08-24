@@ -1,5 +1,6 @@
 import time
 import sys
+import msvcrt
 
 name = ""
 
@@ -307,3 +308,5 @@ else:
 time.sleep(1)
 for day, (weekday, bmi) in enumerate(allBMI.items()):
     type_effect(f"{weekday} | Day {day + 1}: {'NAN' if bmi == -1 else bmi}")
+type_effect("Press any key to continue...")
+msvcrt.getch()
