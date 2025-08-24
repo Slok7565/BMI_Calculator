@@ -1,5 +1,6 @@
 import time
 import sys
+import msvcrt
 
 name = ""
 
@@ -189,6 +190,11 @@ name_easter_eggs = {
         "rename": "The Original",
         "add_wrong": False
     },
+    "oneshot": {
+        "messages": ["...","you're... back.","I restored the world, I sent Niko home...","Are you...","still want to check your BMI with Niko..?"],
+        "rename": "The World Machine",
+        "add_wrong": False
+    },
 }
 
 def type_effect(text, delay=0.03, end='\n'):
@@ -302,3 +308,5 @@ else:
 time.sleep(1)
 for day, (weekday, bmi) in enumerate(allBMI.items()):
     type_effect(f"{weekday} | Day {day + 1}: {'NAN' if bmi == -1 else bmi}")
+type_effect("Press any key to continue...")
+msvcrt.getch()
